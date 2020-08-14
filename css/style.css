@@ -1,0 +1,112 @@
+body{
+    margin: auto;
+    padding: 0px;
+    background-image: url("../fff.jpg");
+    background-size: 100%;
+    font-family: fantasy;
+}
+.left{
+    position: absolute;
+    left: 60px;
+    top: 20px;  
+    display: inline-block;
+   /* border: 2px solid red;*/
+
+}
+.left div{
+    color: darkgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+.left img{
+    width: 60px;
+    display: block;
+    margin-left: 30px;
+    margin-right: 0px;
+    filter: drop-shadow(rgb(141, 139, 139));
+    
+    
+}
+.mid{
+    
+    display:block;
+    width: 35%;
+    margin: 20px auto;
+    /*border: 2px solid blue;*/
+
+
+}
+.right{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    display: inline-block;
+    /*border: 2px solid rgb(15, 1, 1);*/
+
+
+}
+.right img{
+    cursor: pointer;
+}
+.right img:hover{
+    background-color:rgba(247, 244, 244, 0.562);
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;   
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 14px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: brown;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 3px 20px;
+    border: 2px solid #e0b9b9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgba(247, 244, 244, 0.562);
+}
+.box{
+   /* border: 2px solid yellow;*/
+    width: 70%;
+    margin: 25px;
+    padding: 100px 240px;
+    display: block;
+    border-radius: 25px;
+}
+.group input{
+    padding: 4px;
+    width: 80%;
+    display: block;
+    margin: 19px auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+
+}
+.box h1{
+    color: rgb(228, 222, 222);
+  text-align: center;
+  font-size: 50px;
+}
+.box button{
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
